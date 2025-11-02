@@ -7,9 +7,9 @@ const Header = () => {
     <>
     <div className="bg-container">
         <div className="top-comp">
-            <img src={logo} className="logo"/>
+            <img src={logo} className="logo" alt="logo"/>
             <h1 className="heading">LOGO</h1>
-            <img src={icons} className="icons"/>
+            <img src={icons} className="icons" alt="icons"/>
         </div>
         <div className="navbar-section">
             <div>SHOP</div>
