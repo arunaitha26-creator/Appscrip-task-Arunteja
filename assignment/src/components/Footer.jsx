@@ -5,7 +5,7 @@ import footer from '../data/Footer.png'
 const Footer = () => {
   return (
     <div>
-        <img src={footer} className='footer-img'/>
+        <img src={footer} className='footer-img' alt="Footer"/>
     </div>
   )
 }
