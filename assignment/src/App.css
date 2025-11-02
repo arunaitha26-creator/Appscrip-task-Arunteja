@@ -1,0 +1,165 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", "sans-serif";
+}
+.heading{
+  font-size: 15px;
+  border-bottom-width: 1px;
+  font-weight: 500;
+  margin-left: 70px;
+}
+.logo{
+  width: 15px;
+  height: 15px;
+  top: 40px;
+  left: 96px;
+  opacity: 1;
+  text-align: center;
+
+}
+.icons{
+  width:80px;
+  height:8px;
+  text-align: right;
+}
+.top-comp{
+  display:flex;
+  padding:15px;
+  justify-content: space-between;
+}
+.navbar-section{
+  display:flex;
+  gap:20px;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-section div{
+  font-family: "Simplon Norm";
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 10px;
+  line-height: 100%;
+  letter-spacing: 1px;
+  vertical-align: middle;
+
+}
+.bg-container{
+  width: 1440;
+  height: 220;
+  border-width: 1px;
+  opacity: 1;
+  border-bottom: 1px solid #E5E5E5;
+  padding-bottom: 10px;
+}
+.description-section{
+  padding:10px;
+
+}
+.desc-heading{
+  font-family: "Simplon Norm";
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  color: #252020;
+  text-align: center;
+}
+.para{
+  font-family: 'Simplon Norm';
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 8px;
+  text-align: center;
+  padding: 10px;
+}
+.filters-section{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-bottom: 1px solid #E5E5E5;
+  border-top: 1px solid #E5E5E5;
+  padding: 10px;
+}
+.filters-heading{
+  font-family: 'Simplon Norm';
+  font-weight: 700;
+  font-size: 8px;
+  text-transform: uppercase;
+  color: #252020;
+
+}
+.filters-inner-section{
+    display:flex;
+    
+}
+.filters-para{
+  font-family: 'Adobe Caslon Pro';
+  font-weight: 400;
+  font-size: 8px;
+  text-align: right;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 0%;
+  margin-left:10px;
+  color: #888792;
+
+}
+.footer-img{
+  width:100%;
+  height:300px;
+}
+.cust-name{
+font-size: 9px;
+}
+.sidebar-container{
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+}
+.sidebar-heading{
+  font-family: 'Simplon Norm';
+  font-weight: 500;
+  font-size: 6px;
+  text-transform: uppercase;
+  color: #252020;
+}
+.sidebar-para{
+  font-family: 'Adobe Caslon Pro';
+  font-weight: 400;
+  font-size: 5px;
+  
+  color: #252020;
+
+
+}
+.sidebar-single-comp{
+  border-bottom: 1px solid #E5E5E5;
+  
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 25px;
+  width: 70px;
+}
+.product-image{
+  width: 50px;
+  height:50px;
+}
+.product-type{
+  font-size: 7px;
+  text-align: center;
+  color: black
+}
+.products-container{
+  display: flex;
+  margin-top:10px;
+}
+.images-container{
+  display: flex;
+  flex-wrap: wrap; 
+}
+.single-product{
+  margin: 10px;
+}
